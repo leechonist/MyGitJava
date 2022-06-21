@@ -6,4 +6,8 @@ public class C {
 	{
 		return aFirst/aSecond;
 	}
+	public int getMod(int aFirst,int aSecond)
+	{
+		return aFirst%aSecond;
+	}
 }
