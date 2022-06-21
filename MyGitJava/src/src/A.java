@@ -18,5 +18,9 @@ public class A {
 			res *=aFirst;
 		}
 		return res;
+		}
+	public int getSub(int aFirst,int aSecond)
+	{
+		return aFirst-aSecond;
 	}
 }
