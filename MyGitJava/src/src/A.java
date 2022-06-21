@@ -6,4 +6,8 @@ public class A {
 	{
 		return aFirst+ aSecond;
 	}
+	public int getSum3(int aFirst,int aSecond,int aThird)
+	{
+		return aFirst+ aSecond+aThird;
+	}
 }
