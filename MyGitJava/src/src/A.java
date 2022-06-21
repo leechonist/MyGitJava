@@ -6,4 +6,13 @@ public class A {
 	{
 		return aFirst+ aSecond;
 	}
+	public int getPower(int aFirst,int aSecond)
+	{
+		int i=0,res=1;
+		for(i=0;i<aSecond;i++)
+		{
+			res *=aFirst;
+		}
+		return res;
+	}
 }

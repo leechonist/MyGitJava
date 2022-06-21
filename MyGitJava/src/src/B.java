@@ -6,4 +6,8 @@ public class B {
 	{
 		return aFirst*aSecond;
 	}
+	public int getMult3(int aFirst,int aSecond,int aThird)
+	{
+		return aFirst* aSecond*aThird;
+	}
 }
